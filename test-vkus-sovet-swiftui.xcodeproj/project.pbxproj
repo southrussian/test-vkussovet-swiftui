@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5804A37E2AC1BE3B00294449 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		58417E482AC1820300D71B7E /* test-vkus-sovet-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-vkus-sovet-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58417E4B2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_vkus_sovet_swiftuiApp.swift; sourceTree = "<group>"; };
 		58417E4D2AC1820300D71B7E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		58417E3F2AC1820300D71B7E = {
 			isa = PBXGroup;
 			children = (
+				5804A37E2AC1BE3B00294449 /* README.md */,
 				58417E4A2AC1820300D71B7E /* test-vkus-sovet-swiftui */,
 				58417E492AC1820300D71B7E /* Products */,
 			);
