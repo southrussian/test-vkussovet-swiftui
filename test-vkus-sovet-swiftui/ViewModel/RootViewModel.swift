@@ -18,7 +18,6 @@ final class RootViewModel: ObservableObject {
         GridItem(.flexible())
     ]
     
-    // Add recieved data to array of categories
     func fetchData() {
         APIClient.shared.sendPostRequest { response in
             DispatchQueue.main.async {

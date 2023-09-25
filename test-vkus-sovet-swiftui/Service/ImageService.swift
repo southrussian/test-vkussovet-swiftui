@@ -14,7 +14,6 @@ final class ImageService: ObservableObject {
     
     @Published var image: Image? = nil
     
-    // function to load image from url
     func loadImage(fromUrlString urlString: String) {
         APIClient.shared.downloadImage(fromUrlString: "https://vkus-sovet.ru" + urlString) { uiImage in
             guard let uiImage = uiImage else {

@@ -7,6 +7,7 @@
 
 
 import SwiftUI
+import Foundation
 
 final class APIClient {
     static let shared = APIClient()
@@ -18,7 +19,6 @@ final class APIClient {
     private init() {
         
     }
-    // Function to get Categories from API
     func sendPostRequest(completion: @escaping (MenuResponse?) -> Void) {
         guard let url = URL(string: urlForMenu) else {
             completion(nil)
@@ -27,8 +27,6 @@ final class APIClient {
         
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-//        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-//        request.setValue("Bearer YourAccessToken", forHTTPHeaderField: "Authorization")
         
         let parameters: [String: Any] = [
             "key1": "value1",
@@ -64,9 +62,7 @@ final class APIClient {
         task.resume()
     }
     
-    // Function to get Image from URL
     func downloadImage(fromUrlString urlString: String, completed: @escaping (UIImage?) -> Void) {
-//
         let cacheKey = NSString(string: urlString)
 
         if let image = cache.object(forKey: cacheKey) {
@@ -91,7 +87,6 @@ final class APIClient {
         
     }
     
-    // Function to get Items of the selected category
     func sendPostRequestForMenu(forMenuId menuID: String, completion: @escaping(Result<ProductResponse, Error>) -> Void) {
         guard let url = URL(string: urlForProduct + "\(menuID)") else {
             completion(.failure(URLError(.badURL)))
@@ -100,7 +95,6 @@ final class APIClient {
         
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-//        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
