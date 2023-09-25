@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		58417E4C2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E4B2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift */; };
-		58417E4E2AC1820300D71B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E4D2AC1820300D71B7E /* ContentView.swift */; };
+		58417E4E2AC1820300D71B7E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E4D2AC1820300D71B7E /* RootView.swift */; };
 		58417E502AC1820400D71B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58417E4F2AC1820400D71B7E /* Assets.xcassets */; };
 		58417E532AC1820400D71B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58417E522AC1820400D71B7E /* Preview Assets.xcassets */; };
+		58417E5E2AC1973700D71B7E /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E5D2AC1973700D71B7E /* MenuModel.swift */; };
+		58417E602AC1977E00D71B7E /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E5F2AC1977E00D71B7E /* ProductModel.swift */; };
+		58417E622AC197F500D71B7E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E612AC197F500D71B7E /* APIClient.swift */; };
+		58417E642AC198C800D71B7E /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E632AC198C800D71B7E /* RootViewModel.swift */; };
+		58417E662AC1999000D71B7E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E652AC1999000D71B7E /* ImageService.swift */; };
+		58417E682AC19ABF00D71B7E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E672AC19ABF00D71B7E /* ProfileView.swift */; };
+		58417E6A2AC19ADC00D71B7E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E692AC19ADC00D71B7E /* OrderView.swift */; };
+		58417E6C2AC19B0800D71B7E /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E6B2AC19B0800D71B7E /* TabView.swift */; };
+		58417E6E2AC19FD900D71B7E /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58417E6D2AC19FD900D71B7E /* Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58417E482AC1820300D71B7E /* test-vkus-sovet-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-vkus-sovet-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58417E4B2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_vkus_sovet_swiftuiApp.swift; sourceTree = "<group>"; };
-		58417E4D2AC1820300D71B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58417E4D2AC1820300D71B7E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		58417E4F2AC1820400D71B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58417E522AC1820400D71B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58417E5D2AC1973700D71B7E /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		58417E5F2AC1977E00D71B7E /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		58417E612AC197F500D71B7E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		58417E632AC198C800D71B7E /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		58417E652AC1999000D71B7E /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		58417E672AC19ABF00D71B7E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		58417E692AC19ADC00D71B7E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		58417E6B2AC19B0800D71B7E /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		58417E6D2AC19FD900D71B7E /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,11 @@
 		58417E4A2AC1820300D71B7E /* test-vkus-sovet-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				58417E5C2AC1935800D71B7E /* ViewModel */,
+				58417E5B2AC1935100D71B7E /* Service */,
+				58417E5A2AC1934500D71B7E /* Model */,
+				58417E592AC1933A00D71B7E /* View */,
 				58417E4B2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift */,
-				58417E4D2AC1820300D71B7E /* ContentView.swift */,
 				58417E4F2AC1820400D71B7E /* Assets.xcassets */,
 				58417E512AC1820400D71B7E /* Preview Content */,
 			);
@@ -65,6 +86,44 @@
 				58417E522AC1820400D71B7E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58417E592AC1933A00D71B7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58417E4D2AC1820300D71B7E /* RootView.swift */,
+				58417E672AC19ABF00D71B7E /* ProfileView.swift */,
+				58417E692AC19ADC00D71B7E /* OrderView.swift */,
+				58417E6B2AC19B0800D71B7E /* TabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58417E5A2AC1934500D71B7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58417E5D2AC1973700D71B7E /* MenuModel.swift */,
+				58417E5F2AC1977E00D71B7E /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58417E5B2AC1935100D71B7E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				58417E612AC197F500D71B7E /* APIClient.swift */,
+				58417E652AC1999000D71B7E /* ImageService.swift */,
+				58417E6D2AC19FD900D71B7E /* Formatter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		58417E5C2AC1935800D71B7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				58417E632AC198C800D71B7E /* RootViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58417E4E2AC1820300D71B7E /* ContentView.swift in Sources */,
+				58417E6E2AC19FD900D71B7E /* Formatter.swift in Sources */,
+				58417E6C2AC19B0800D71B7E /* TabView.swift in Sources */,
+				58417E682AC19ABF00D71B7E /* ProfileView.swift in Sources */,
+				58417E662AC1999000D71B7E /* ImageService.swift in Sources */,
+				58417E4E2AC1820300D71B7E /* RootView.swift in Sources */,
 				58417E4C2AC1820300D71B7E /* test_vkus_sovet_swiftuiApp.swift in Sources */,
+				58417E5E2AC1973700D71B7E /* MenuModel.swift in Sources */,
+				58417E622AC197F500D71B7E /* APIClient.swift in Sources */,
+				58417E6A2AC19ADC00D71B7E /* OrderView.swift in Sources */,
+				58417E642AC198C800D71B7E /* RootViewModel.swift in Sources */,
+				58417E602AC1977E00D71B7E /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct test_vkus_sovet_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }
